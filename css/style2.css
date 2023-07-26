@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;500&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+       margin: 0px;
+    padding: 0px;
+}
+form{
+    width: 600px;
+    height: 800px;
+    margin-left: 50px;
+    text-align: start;
+    margin-bottom: 90px;
+
+}
+h1{
+    font-size: 70px;
+    font-weight: lighter;
+}
+input[type=text]{
+
+    width: 500px;
+    height: 60px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: x-large;
+}
+input[type=password]{
+
+    width: 500px;
+    height: 60px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: x-large;
+
+}
+button{
+    width: 250px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: x-large;
+    color: white ;
+    font-weight: bold;
+    margin-top: 45px;
+    background-color: black;
+    margin-left: 30px;
+}
+input{
+
+    margin-left: 30px;
+
+}
+.line{
+    border-top: 1px solid rgb(116, 114, 114);
+    background-color: rgb(116, 114, 114);
+    height: 80vh;
+    width: 1px;
+    margin-left: 50px;
+}
+
+.password1{
+    color: rgb(116, 114, 114);
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 35px;
+
+
+
+}
+p{
+    font-size: 25px;
+    color: rgb(116, 114, 114);
+    margin-left: 35px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    padding: 0px ;
+
+    font-family: 'Urbanist', sans-serif;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160vh;
+}
+footer{
+    margin: 0px;
+    background-color: black;
+    height: auto;
+    width: 100%;
+    color: white;
+}
+.soso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.soso h3{
+
+    font-size: 50px;
+    font-weight: 40px;
+    text-transform: capitalize;
+}
+.soso p{
+
+    max-width: 500px;
+    margin: 10px;
+    line-height: 30px;
+    font-size: 15px;
+}
+.footer1{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer1 li{
+    margin: 20px;
+}
+.copy-footer{
+    background-color: black;
+    width: 100vh;
+    padding: 20px;
+    text-align: center;
+}
+.copy-footer p{
+font-size: 15px;
+}
+.flex-row{
+    border: 2px solid black;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+}
+header{
+
+    background-color: black;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    gap: 1%;
+    width:100%;
+    height: 10vh;
+
+}
+header nav{
+
+    width: 40vw;
+}
+
+nav a{
+
+    color: white;
+    text-decoration: none;
+    margin-left: 5%;
+
+}
+header img{
+
+    margin-right: 50px;
+    margin-top: -25px;
+    height: 130px;
+}
+.header-login{
+
+    margin-left: 150px;
+}
